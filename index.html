@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .usernameLable {
+            display: block;
+            margin: 10px;
+        }
+        .txtLogin {
+            width: 100px;
+            margin-top: 0px;
+        }
+        .passLable {
+            display: block;
+            margin: 10px;
+        }
+        .formLogin {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            justify-content: center;
+            /* align-items: center; */
+            margin: 0 auto;
+            border: 1px solid black;
+            padding: 16px;
+            
+        }
+        .check {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <form class="formLogin">
+        <h1 class="txtLogin check">Login</h1>
+        <label class="usernameLable">Username</label>
+        <input type="text" class="usernameInput">
+        <label class="passLable">Password</label>
+        <input type="text" class="passInput">
+        <button class="btDone">Done</button>
+    </form>
+</body>
+</html>
